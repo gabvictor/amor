@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/carousel.js" defer></script>
+  <script src="/js/relacionamento.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Sem ideia para titulo</h1>
+    </header>
+    <div class="carousel-container">
+      <div class="carousel-slide" id="carouselSlide">
+        <div class="carousel-item">
+          <img src="/img/IMG_20240812_222901_608.webp" alt="Foto 1">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/IMG_20240812_222913_869.webp" alt="Foto 2">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/IMG_20240812_223155_095.webp" alt="Foto 3">
+        </div>
+        <!-- Adicione mais imagens conforme necessário -->
+      </div>
+      <button class="carousel-button left" onclick="prevSlide()">&#10094;</button>
+      <button class="carousel-button right" onclick="nextSlide()">&#10095;</button>
+      <div class="carousel-indicator" id="carouselIndicator">1 / 3</div>
+    </div>
+    <hr>
+    <h1>Nosso Tempo Juntos até Agora</h1>
+    <div id="cronometro">
+      <div class="time-box" id="anos-box">
+        <span class="label">Anos:</span>
+        <span id="anos">0</span>
+      </div>
+      <div class="time-box">
+        <span class="label">Meses:</span>
+        <span id="meses">0</span>
+      </div>
+      <div class="time-box">
+        <span class="label">Dias:</span>
+        <span id="dias">0</span>
+      </div>
+      <div class="time-box">
+        <span class="label">Horas:</span>
+        <span id="horas">0</span>
+      </div>
+      <div class="time-box">
+        <span class="label">Minutos:</span>
+        <span id="minutos">0</span>
+      </div>
+      <div class="time-box">
+        <span class="label">Segundos:</span>
+        <span id="segundos">0</span>
+      </div>
+    </div>
+
+    <hr>  
+
+    <div id="mensagem" style="text-align: center; margin-top: 20px;">
+      <h1>Mensagem</h1>
+
+      <h2 style="font-style: italic; color: #c22f2f;">
+        "Texto"
+      </h2>
+    </div>
+
+    <hr>
+
+    <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/playlist/0ibUq6xzlAf2yYse5enNYG?utm_source=generator&theme=0" width="100%"
+      height="352" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+</body>
+
+</html>
