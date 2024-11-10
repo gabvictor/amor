@@ -136,6 +136,16 @@ h1 {
     }
 }
 
+#mensagem h2 {
+  text-align: center;
+  max-width: 600px; /* Ajusta a largura conforme necessário */
+  margin: 0 auto;
+  line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+  font-size: 1.1rem; /* Ajusta o tamanho da fonte */
+  color: #c22f2f;
+  font-style: italic;
+}
+
 /* Oculta os botões do carrossel em dispositivos móveis */
 @media (hover: none) and (pointer: coarse) {
     .carousel-button {
