@@ -134,11 +134,7 @@ h1 {
     font-size: 1.1rem; /* Ajusta o tamanho da fonte */
   }
 
-  .highlight {
-    color: #9400d3 ; /* Altere a cor conforme desejado */
-    font-weight: bold; /* Opcional: deixe o texto em negrito */
-    font-style: inherit;
-}
+
 
 
 @keyframes fall {
