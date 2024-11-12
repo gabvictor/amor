@@ -126,6 +126,21 @@ h1 {
     z-index: 1;
 }
 
+#mensagem h2 {
+    text-align: center;
+    max-width: 600px; /* Ajusta a largura conforme necessário */
+    margin: 0 auto;
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    font-size: 1.1rem; /* Ajusta o tamanho da fonte */
+  }
+
+  .highlight {
+    color: #9400d3 ; /* Altere a cor conforme desejado */
+    font-weight: bold; /* Opcional: deixe o texto em negrito */
+    font-style: inherit;
+}
+
+
 @keyframes fall {
     0% {
         transform: translateY(0);
