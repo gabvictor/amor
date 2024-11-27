@@ -1,7 +1,7 @@
 {
   "name": "Amor App",
   "short_name": "Amor",
-  "start_url": "/",
+  "start_url": "/amor",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ff69b4",
