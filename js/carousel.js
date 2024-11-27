@@ -76,6 +76,16 @@ function stopAutoSlide() {
 carouselSlide.addEventListener('touchstart', startDragging);
 carouselSlide.addEventListener('touchend', endDragging);
 
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker
+            .register("/service-worker.js")
+            .then(() => console.log("Service Worker registrado!"))
+            .catch(err => console.error("Erro ao registrar o Service Worker:", err));
+    });
+}
+
+
 // Iniciar carrossel automático ao carregar a página
 startAutoSlide();
 
