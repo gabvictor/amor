@@ -176,3 +176,29 @@ h1 {
         font-size: 16px; /* Reduz o tamanho da fonte em dispositivos menores */
     }
 }
+
+.fade-in {
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.rodape {
+    text-align: center;
+    color: #f8f8f8;
+    margin-top: 40px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.rodape span {
+    color: #c22f2f;
+}
